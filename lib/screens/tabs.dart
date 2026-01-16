@@ -34,7 +34,7 @@ class _TabsScreenState extends State<TabsScreen> {
 
     return Scaffold(
       appBar: AppBar(),
-      drawer: MainDrawer(drawerIcon: Text('A')),
+      drawer: MainDrawer(drawerIcon: Text('A'), userName: 'Test',),
       body: pages[_selectedPageIndex],
       bottomNavigationBar: BottomNavigationBar(
         iconSize: 40,
